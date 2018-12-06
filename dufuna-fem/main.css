@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+#main  li {
+    display: inline-block;
+    padding: 0 2rem;
+    border-left: .1rem solid #cda43b;
+    cursor: pointer;
+    text-decoration: inherit;
+    text-align: left;
+}
+/* .slider{
+   width: 800px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    animation-name: slideranimation;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+.slider img{
+    float: left;
+}
+@keyframes slideranimation{
+    0%{
+        left: 0px;
+    }
+    20%{
+        left: 0px;
+    }
+    25%{
+        left: -800px;
+    }
+    45%{
+        left: -800px;
+    }
+    50%{
+        left: -1600px;
+    }
+    70%{
+        left: -1600px;
+    }
+    75%{
+        left: -2400px;
+    }
+}*/
+/*box
+.heading{
+    width: 100%;
+    height: auto;
+    float: left;
+    color: rgb(53, 2, 2);
+    font-size: 22px;
+}
+.heading h2{
+    line-height:35px;
+    border-left: 20px solid rgb(189, 4, 66);
+    padding-left: 10px;
+}
+.catbox{
+    width: 235px;
+    height: 235px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    margin: 0 15 30 0; 
+}
+.catbox span{
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    background: rgba(0, 0, 0, 0.6);
+    color: aliceblue;
+    display: block;
+    bottom: 30px;
+    position: absolute;
+    z-index: 999;
+    text-align: center;
+
+}
+.catbox:hover span{
+    color: rgb(143, 3, 49);
+}
+.catbox img{
+    max-width: 100%;
+    transition: all .5s ease;
+}
+.catbox:hover img{
+    transform: scale(1.3,1.3);
+    transition: all .5s ease;
+}*/
