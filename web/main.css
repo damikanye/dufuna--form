@@ -97,9 +97,12 @@ body{
     padding: 2% 5%;
 }
 .social i{
-    background-image:linear-gradient(rgba(0, 0, 0,0.5), rgba(0, 0, 0, 0.5)), url(img/food-background-flat-design_1257-190.jpg);
     color: #ef5651;
     font-size: 20px;
+}
+#images{
+    width: auto;
+    height: 200px;
 }
 @media screen and (max-width: 768px){
     .section-1 .card{
@@ -109,7 +112,23 @@ body{
         width: 350px;
     }
 }
-#img{
-    width: auto;
-    height: 200px;
+#search .navbar-form{
+    float: right;
+}
+footer{
+    background-color: black;
+}
+.row{
+    margin: 20px;
+    padding: 15px;
+}
+
+.box{
+    background: #ffffff;
+    margin: 0 0 30px;
+    border: solid 1px #e6e6e6;
+    box-sizing: border-box;
+    padding: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, .3);
+    
 }
